@@ -165,10 +165,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $
-  - '%'
-  - ^
-  - '{'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
@@ -260,3 +260,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [23, 24]
+  k: {t: '[', s: '{'}
+- p: [24, 25]
+  k: {t: ']', s: '}'}
