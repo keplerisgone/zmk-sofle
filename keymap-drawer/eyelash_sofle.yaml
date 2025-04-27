@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - F17
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - F17
   - $$mdi:volume-off$$
   - '3'
   - $$mdi:apple-keyboard-option$$
@@ -265,3 +265,5 @@ combos:
   k: {t: '[', s: '{'}
 - p: [24, 25]
   k: {t: ']', s: '}'}
+- p: [36, 37]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
