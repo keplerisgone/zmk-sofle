@@ -64,7 +64,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   layer1:
   - {t: '`', s: '~'}
   - F1
