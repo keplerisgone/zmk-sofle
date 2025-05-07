@@ -58,11 +58,6 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 25>;
         };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <36 37>;
-        };
     };
 
     keymap {
